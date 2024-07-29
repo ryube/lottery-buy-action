@@ -24,7 +24,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://chaeyk/lottery-agent:v1'
+  image: 'docker://ryube/lottery-agent:v1'
   env:
     DHL_USERID: ${{ inputs.username }}
     DHL_PASSWORD: ${{ inputs.password }}
